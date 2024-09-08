@@ -18,7 +18,17 @@
         var f = a / b; //bagi
         var g = a % b; //modulus
         var h = Math.pow(a, b); //pangkat
-
+        
+        
+        // Menampilkan hasil di console
+        console.log("Penjumlahan (a + b):", c);
+        console.log("Pengurangan (a - b):", d);
+        console.log("Perkalian (a * b):", e);
+        console.log("Pembagian (a / b):", f);
+        console.log("Modulus (a % b):", g);
+        console.log("Pangkat (Math.pow(a, b)):", h);
+        
+        
         //data type array
         var karakter = ['upin', 'ipin', 'mail', 'jarjit', 'ros'];
 
@@ -32,9 +42,9 @@
 
         var DataIdentitas = "nama " + identitas.nama + ", umur " + identitas.umur + " tahun";
 
-        var pesan_bahaya = "Awas bahaya!";
+       // var pesan_bahaya = "Awas bahaya!";
 
-        //function
+        //function; kode dapat digunakan kembali
         function hitung(a, b) {
             alert("hasil = " + (a * b));
         }
@@ -43,18 +53,18 @@
             alert("Nama " + nama + ", Umur: " + umur + " tahun");
         }
         //function call
-        //profil("Anshori", 21);
+        profil("Anshori", 21);
 
-        //console.log(DataIdentitas)
+        console.log(DataIdentitas)
 
-        //conditional
+        //conditional: yang di dalam kurung adalah kondisi
         var nilai = 60;
         if (nilai >= 80) {
             alert("Nilai Anda A");
             //nilai 70-79
-        } else if (nilai >=70 || nilai < 80) {
+        } else if (nilai >= 70 || nilai < 80) {
             alert("Nilai anda b");
-        } else if (nilai >= 60 && ilai < 70) {
+        } else if (nilai >= 60 && nilai < 70) {
             alert("Nilai Anda C");
         } else {
             alert("Nilai Anda D");
